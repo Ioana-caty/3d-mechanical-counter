@@ -1,6 +1,13 @@
 # ⚙️ Mechanical Counter — Fusion 360
 A 3D-modeled mechanical counter that replicates the classic odometer-style digit wheel mechanism, designed entirely in **Autodesk Fusion 360**.
 
+<img width="1254" height="738" alt="MechanicalCounter" src="https://github.com/user-attachments/assets/235b987f-0f55-4831-bedd-5423e550403f" />
+
+<img width="1237" height="651" alt="counter2" src="https://github.com/user-attachments/assets/fa6ae585-92c7-4e7c-a011-3880d3937830" />
+
+<img width="1169" height="641" alt="counter3" src="https://github.com/user-attachments/assets/934fa012-7604-421a-84e2-36ecfaf4acec" />
+
+
 ## 🎯 Project Description
 
 This project is a **3-digit mechanical counter** (units, tens, hundreds) capable of counting from **000 to 999**, operated manually by pushing a lever up or down to increment or decrement the displayed value.
@@ -143,6 +150,17 @@ When setting up **Revolute Joints** in Fusion 360 to simulate gear rotation, use
 |---|---|
 | `gear1` — 21 teeth | 360° |
 | `gear4` — 8 teeth | 147.142° |
+
+## 🎬 Motion Simulation
+
+To demonstrate the **Digit Transfer (carry) mechanism**, two Motion Link simulations were created directly in Fusion 360, showing how `gear4` interacts with `gear1` to propagate the carry from one digit to the next.
+ 
+---
+ 
+## ✅ TODO
+ 
+- [ ] Add Motion Link simulation for the **Ratchet increment/decrement mechanism**
+- [ ] Implement a video to demonstrate how it works
 
 ## 📚 Resources & Credits
 
